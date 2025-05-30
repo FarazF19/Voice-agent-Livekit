@@ -1,0 +1,8 @@
+# Requirements for the project 
+elevenlabs 
+python-dotenv 
+asyncio
+ipykernel
+silero
+livekit-agents[openai,cartesia,silero,turn-detector]~=1.0
+livekit-plugins-noise-cancellation~=0.2
