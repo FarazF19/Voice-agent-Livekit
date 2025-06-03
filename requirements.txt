@@ -3,9 +3,8 @@ elevenlabs
 python-dotenv 
 asyncio
 ipykernel
-silero
-livekit-agents[openai,cartesia,silero,turn-detector]~=1.0
-livekit-plugins-noise-cancellation~=0.2
-livekit-agents[elevenlabs]~=1.0
-streamlit
-streamlit-audio-recorder
+livekit
+livekit-agents[openai,cartesia,silero,turn-detector,elevenlabs]~=1.0
+livekit-plugins-noise-cancellation~=0.2.4
+livekit-api
+livekit-plugins-deepgram~=0.6
